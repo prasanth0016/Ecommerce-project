@@ -1,0 +1,161 @@
+/* big screen */
+@media screen and (min-width:427px) and (max-width:2561px) {
+    * {
+        margin: 0px;
+    }
+
+    .nav-container {
+        display: grid;
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+        background-color: white;
+        grid-template-columns: 20% 50% 30%;
+        /* border: 1px solid black; */
+        height: 50px;
+    }
+
+    .logo-div {
+        text-align: center;
+        align-content: center;
+        /* border: 1px solid black; */
+    }
+
+    .logo {
+        color: black;
+        font-size: 20px;
+        font-family: arial;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .nav-div {
+        text-align: center;
+        align-content: center;
+        /* border: 2px solid greenyellow; */
+    }
+
+    .nav-div>a {
+        font-family: arial;
+        font-weight: lighter;
+        font-size: 20px;
+        padding-right: 20px;
+        text-decoration: none;
+        color: lightslategray;
+    }
+
+    /* 
+    a {
+        text-decoration: none;
+        color: black;
+    } */
+    .nav-div>a:hover {
+        color: black;
+    }
+
+    .navrightdiv {
+        /* border: 1px solid black; */
+        align-content: center;
+        /* margin-left: 10px; */
+        text-align: center;
+    }
+
+    .loginbtn{
+        height: 30px;
+        width: 60px;
+        background-color: white;
+        border: 1.5px solid gray;
+        margin-left: 8px;
+        border-radius: 4px;
+    }
+    .loginatag {
+        
+        color: black;
+        text-decoration: none;
+        font-family: arial;
+        /* border: 1px solid black; */
+    }
+
+}
+
+
+
+/* mobile screen */
+@media screen and (max-width:426px) {
+    * {
+        margin: 0px;
+    }
+
+    /* a {
+        text-decoration: none;
+        color: black;
+    } */
+
+    .nav-container {
+        display: grid;
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+        grid-template-columns: 20% 50% 30%;
+        /* border: 1px solid black; */
+        /* height: 40px; */
+    }
+
+    .logo-div {
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+
+    .logo {
+        color: black;
+        text-decoration: none;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .nav-div {
+        text-align: center;
+        /* border: 2px solid greenyellow; */
+    }
+
+    .nav-div>a {
+        font-family: arial;
+        font-weight: lighter;
+        font-size: 10px;
+        padding-right: 2px;
+        text-decoration: none;
+        color: lightslategray;
+    }
+
+    .nav-div>a:hover {
+        color: black;
+    }
+
+    .navrightdiv {
+        /* border: 1px solid black; */
+        align-content: center;
+        /* margin-left: 10px; */
+        /* text-align: center; */
+    }
+
+    .loginbtn{
+        height: 16px;
+        width: 28px;
+        background-color: white;
+        border: 1px solid gray;
+        /* margin-left: 4px; */
+        border-radius: 4px;
+        
+        
+    }
+    .loginatag {
+        
+        color: black;
+        font-size: 5px;
+        text-decoration: none;
+        font-family: arial;
+        /* border: 1px solid black; */
+    }
+
+}

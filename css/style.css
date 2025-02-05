@@ -2,6 +2,7 @@
 @media screen and (min-width:427px) and (max-width:2561px) {
     * {
         margin: 0px;
+        font-family: arial;
     }
 
     .nav-container {
@@ -280,6 +281,55 @@
 
     }
 
+    /* CONTACT PAGE */
+    .contact-head-div{
+        display: flex;
+        height: 100px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .contact-hr{
+        margin: 7px;
+    }
+    .contact-form-div{
+        display: flex;
+        flex: wrap;
+        justify-content:center;
+        align-items: center;
+        margin: 50px;  
+    }
+.form-inside-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.contact-input{
+    height: 35px;
+    width: 250px;
+    border: 1.5px solid gray;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px gray;
+}
+.msg-input{
+    height: 80px;
+    width: 250px;
+    border: 1.5px solid gray;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px gray;
+}
+.send-btn{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 16px;
+}
 }
 
 
@@ -555,5 +605,55 @@
         color: red;
 
     }
+
+    /* CONTACT PAGE */
+    .contact-head-div{
+        display: flex;
+        height: 100px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .contact-hr{
+        margin: 7px;
+    }
+    .contact-form-div{
+        display: flex;
+        flex: wrap;
+        justify-content:center;
+        align-items: center;
+        margin: 50px;  
+    }
+.form-inside-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.contact-input{
+    height: 35px;
+    width: 250px;
+    border: 1.5px solid gray;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px gray;
+}
+.msg-input{
+    height: 80px;
+    width: 250px;
+    border: 1.5px solid gray;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px gray;
+}
+.send-btn{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 16px;
+}
 
 }

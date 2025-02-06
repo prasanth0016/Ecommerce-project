@@ -129,6 +129,7 @@
         margin-right: 70px;
     }
 
+    /* HOME FILTER OPTIONS */
     .home-filter-div {
         height: 100px;
         display: flex;
@@ -165,12 +166,14 @@
         height: 600px;
         border: 1.5px solid gray;
         border-radius: 5px;
+        justify-content: center;
+        align-items: center;
     }
 
     .item-img {
         width: 100%;
         height: 70%;
-        border-radius: 5px;
+    
 
     }
 
@@ -178,7 +181,7 @@
         display: flex;
         justify-content: center;
 
-        align-items: center;
+        word-wrap: break-word;
         margin: 10px;
         column-gap: 10px;
     }
@@ -186,8 +189,9 @@
     .pro-descrip>button {
         background-color: black;
         color: white;
+        border: none;
         border-radius: 5px;
-        margin-top: 5px;
+        margin-top: 2px;
         height: 30px;
         width: auto;
         padding: 5px;
@@ -268,6 +272,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        margin-top: 50px;
 
     }
 
@@ -356,11 +361,11 @@
     .cart-main-div {
         display: flex;
         flex-direction: column;
-        width: 900px;
-        margin-top: 100px;
-        margin-left: 20px;
+        width: 420px;
+        margin-top: 50px;
+        margin-left: 5px;
         border: 2px solid gray;
-        border-radius: 5px;
+        border-radius: 8px;
     }
 
     .cart-head {
@@ -377,31 +382,32 @@
 
     .cart-item {
         display: flex;
-        flex-wrap: wrap;
+        
         border-bottom: 2px solid gray;
 
 
     }
 
     .cart-img {
-        width: 180px;
-        height: 200px;
+        width: 100px;
+        height: 150px;
     }
 
     .cart-desc1 {
         display: flex;
-        width: 400px;
-        height: 200px;
-        justify-content: center;
+        width: 200px;
+        height: 150px;
+        
         align-items: center;
+        padding-left: 2px;
         word-wrap: break-word;
 
     }
 
     .cart-desc2 {
         display: flex;
-        width: 300px;
-        height: 200px;
+        width: 120px;
+        height: 150px;
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
@@ -418,7 +424,7 @@
         margin: 10px;
         position: absolute;
         right: 20px;
-        top: 230px;
+        top: 185px;
     }
 
     .os-head {
@@ -467,6 +473,83 @@
         font-size: 20px;
         font-weight: bold;
     }
+
+    /* LOG IN PAGE */
+    .login-head{
+        display: flex;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .log-hr{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+    .login-form-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-form{
+        display: flex;
+        flex-direction: column;
+       
+        row-gap: 15px;
+    }
+    .login-input{
+        height: 30px;
+        width: 250px;
+        border: 2px solid gray;
+        box-shadow: 1px 1px 1px lightslategrey;
+        border-radius: 4px;
+    }
+    .login-btn{
+        border: none;
+        border-radius: 4px;
+        height: 35px;
+        width: 70px;
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    /* REGISTER PAGE */
+    .regis-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .regis-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .input-t{
+        color: gray;
+        font-size: 18px;
+    }
+    .regis-input{
+        height: 30px;
+        width: 250px;
+        border: 2px solid gray;
+        box-shadow: 1px 1px 1px lightslategrey;
+        border-radius: 4px;
+    }
+    .regi-btn{
+        border: none;
+        border-radius: 4px;
+        height: 35px;
+        width: 100px;
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
 }
 
 
@@ -547,6 +630,7 @@
         color: black;
     }
 
+    /* HOME WALLPAPER */
     .home-wallpaper-div {
         height: 180px;
         margin-left: 5px;
@@ -598,63 +682,80 @@
         margin-right: 25px;
     }
 
+    /* HOME FILTER OPTIONS */
     .home-filter-div {
         height: 50px;
-        text-align: center;
-        align-content: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .home-filter-div>a {
         text-decoration: none;
-        color: black;
-        border: 1px solid black;
+        color: lightslategray;
+        border: 1px solid lightslategray;
         border-radius: 3px;
         font-family: arial;
-        margin-right: 12px;
-        margin-top: 8px;
+        height: 15px;
+        margin: 5px;
+        text-align: center;
+        align-content: center;
+        font-size: 0.5rem;
+        padding: 4px;
     }
 
+/* PRODUCTS LIST */
     .products-main-div {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
-        row-gap: 15px;
-        column-gap: 15px;
+        align-items: center;
+        row-gap: 7px;
+        column-gap: 7px;
+        flex-wrap: wrap;
 
 
     }
 
     .item {
-        width: 350px;
-        height: 600px;
-        border: 1.5px solid gray;
-        border-radius: 5px;
+        width: 120px;
+        height: 200px;
+        /* border: 1px solid gray; */
+        border-radius: 4px;
+        box-shadow: 2px 2px 5px rgb(125, 157, 195);
+
     }
 
     .item-img {
-        width: 100%;
-        height: 70%;
-        border-radius: 5px;
-
+        width: 120px;
+        height: 60%;
+        
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
     }
 
     .pro-descrip {
         display: flex;
         justify-content: center;
 
-        align-items: center;
-        margin: 10px;
-        column-gap: 10px;
+        word-wrap: break-word;
+        margin: 1px;
+        column-gap: 2px;
     }
 
     .pro-descrip>button {
         background-color: black;
         color: white;
-        border-radius: 5px;
+        border-radius: 4px;
+        border: none;
         margin-top: 5px;
-        height: 30px;
+        height: 15px;
         width: auto;
-        padding: 5px;
+        padding: 2px;
+        font-size: 8px;
+        font-weight: bold;
+    }
+    .pro-font{
+        font-size: 8px;
     }
 
     /* ABOUT PAGE */
@@ -672,14 +773,14 @@
     }
 
     .about-hr {
-        margin: 40px;
+        margin: 20px;
     }
 
     .about-para-div {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 2px;
     }
 
     .about-para {
@@ -818,10 +919,9 @@
     .cart-main-div {
         display: flex;
         flex-direction: column;
-        width:250px;
-        margin-top: 35px;
-        margin-left: 0px;
-        margin-right: 0px;
+        width:195px;
+        margin-top: 22px;
+        
         border: 2px solid gray;
         border-radius: 8px;
     }
@@ -847,27 +947,36 @@
     }
 
     .cart-img {
-        width: 90px;
+        width: 50px;
         height: 100px;
     }
 
     .cart-desc1 {
         display: flex;
-        width: 80px;
+        width: 70px;
         height: 100px;
-        
+        justify-content: center;
+        align-items: center;
         word-wrap: break-word;
 
     }
 
     .cart-desc2 {
         display: flex;
-        width: 80px;
+        width: 70px;
         height: 100px;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+        flex-direction: column;
+        
+        justify-content: center;
         align-items: center;
     }
+   .cltq-count{
+    font-size: 12px;
+   }
+   .clt-btn{
+    border: none;
+    background: none;
+   }
 
     /* ORDER SUMMARY */
     .cart-os-m-div {
@@ -935,6 +1044,81 @@
     }
     .c-font{
         font-size: 8px;
+    }
+
+    /* LOG IN PAGE */
+    .login-head{
+        display: flex;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .log-hr{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+    .login-form-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-form{
+        display: flex;
+        flex-direction: column;
+       
+        row-gap: 15px;
+    }
+    .login-input{
+        height: 30px;
+        width: 250px;
+        border: 2px solid gray;
+        box-shadow: 1px 1px 1px lightslategrey;
+        border-radius: 4px;
+    }
+    .login-btn{
+        border: none;
+        border-radius: 4px;
+        height: 35px;
+        width: 70px;
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    /* REGISTER PAGE */
+    .regis-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .regis-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .input-t{
+        color: gray;
+        font-size: 18px;
+    }
+    .regis-input{
+        height: 30px;
+        width: 250px;
+        border: 2px solid gray;
+        box-shadow: 1px 1px 1px lightslategrey;
+        border-radius: 4px;
+    }
+    .regi-btn{
+        border: none;
+        border-radius: 4px;
+        height: 35px;
+        width: 100px;
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
     }
 
 }
